@@ -11,6 +11,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @Entity
+@Table(name="utilisateur")
 public class User {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
